@@ -1,1 +1,49 @@
-//
+html {
+background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+url(../img/wooden-floor.png) no-repeat center center fixed;
+background-size: 100% auto;
+background-repeat: repeat;
+}
+body {
+font-family: Helvetica, serif;
+}
+h1 {
+text-align: center;
+margin-top: 5%;
+color: #FFF;
+}
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 200px;
+}
+.top-p {
+text-align: center;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+.skills-list {
+color: #FFF;
+list-style: none;
+text-align: center;
+margin-top: 3%;
+}
+.skills-list li {
+display: inline-block;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+}
