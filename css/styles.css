@@ -3,10 +3,11 @@ html
 background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
 background-size: 100% auto;
 background-repeat: repeat;
+background-color: navy;
 }
 body 
 {
-font-family: Times, serif;
+font-family: Times New Roman, serif;
 }
 h1 
 {
@@ -31,15 +32,15 @@ margin-top: 5%;
 margin-left: 20%;
 margin-right: 20%;
 line-height: 2em;
-color: #FFF;
+color: black;
 }
-.intrests-list {
+.interests-list {
 color: #FFF;
 list-style: none;
 text-align: center;
 margin-top: 3%;
 }
-.intrests-list li {
+.interests-list li {
 display: inline-block;
 text-align: center;
 padding: 10px;
