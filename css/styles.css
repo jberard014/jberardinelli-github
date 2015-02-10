@@ -1,0 +1,48 @@
+html 
+{
+background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+background-size: 100% auto;
+background-repeat: repeat;
+}
+body 
+{
+font-family: Times, serif;
+}
+h1 
+{
+text-align: center;
+margin-top: 5%;
+color: #000b42;
+font-weight: bold;
+}
+.top-p 
+{
+text-align: center;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+.bot-p 
+{
+text-align: center;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 20%;
+line-height: 2em;
+color: #FFF;
+}
+.intrests-list {
+color: #FFF;
+list-style: none;
+text-align: center;
+margin-top: 3%;
+}
+.intrests-list li {
+display: inline-block;
+text-align: center;
+padding: 10px;
+font-weight: bold;
+}
+
