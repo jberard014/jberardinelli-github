@@ -3,7 +3,7 @@ html
 background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
 background-size: 100% auto;
 background-repeat: repeat;
-background-color: navy;
+background-color: tan;
 }
 body 
 {
@@ -15,6 +15,9 @@ text-align: center;
 margin-top: 5%;
 color: #000b42;
 font-weight: bold;
+}
+.JonBerardinelli {
+text-align: center;
 }
 .top-p 
 {
