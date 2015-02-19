@@ -16,8 +16,6 @@ margin-top: 5%;
 color: #000b42;
 font-weight: bold;
 }
-.JonBerardinelli {
-text-align: center;
 }
 .top-p 
 {
@@ -49,4 +47,182 @@ text-align: center;
 padding: 10px;
 font-weight: bold;
 }
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
 
+    h1
+    {
+        font-size: 6em;
+
+        color: #FFF;
+    }
+
+    body {
+      font-size: 5em;
+
+      color: #FFF;
+    }
+
+    .home-wrapper
+    {
+        position: relative;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url(../img/iphone.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+    h1
+    {
+        font-size: 5em;
+
+        color: #FFF;
+    }
+
+    body {
+      font-size: 4em;
+
+      color: #FFF;
+    }
+
+    .home-wrapper
+    {
+        position: relative;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url(../img/iphone.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+    h1
+    {
+        font-size: 4em;
+
+        color: #FFF;
+    }
+
+    body {
+      font-size: 3em;
+
+      color: #FFF;
+    }
+
+    .home-wrapper
+    {
+        position: relative;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url(../img/iphone.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+    h1
+    {
+        font-size: 3em;
+
+        color: #FFF;
+    }
+
+    body {
+      font-size: 2em;
+
+      color: #FFF;
+    }
+
+    .home-wrapper
+    {
+        position: relative;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url(../img/iphone.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+    h1
+    {
+        font-size: 2em;
+
+        color: #FFF;
+    }
+
+    body {
+      font-size: 100%;
+
+      color: #FFF;
+    }
+
+    .home-wrapper
+    {
+        position: relative;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url(../img/iphone.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+}
