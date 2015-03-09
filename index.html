@@ -18,46 +18,70 @@
 	<meta name=“twitter:image” content=“http://jberard014.github.io/JBerardinelli.png”/>
  </head>
 <body>
-  <div class="container">
-    <h1>About Me.</h1>
-    <img src="img/JBerardinelli.jpg" alt="About Me Picture" title="JonBerardinelli" />
-    <p class="top-p">Hey everyone, my name is Jonathon Berardinelli and I'm a junior in the 
-    Computer Science and Engineering Technology program at the University of Toledo. 
-    I have some experience in Python, C++, Java and Assembly Language. I am a full time student
-    but I also work part time at a grocery store. I love video games and I am really looking 
-    forward to this class. 
-    Favorite things to do: </p>
-    <ul class="intrests-list">
-    <li>Biking</li>
-    <li>Playing video games</li>
-    <li>Reading</li>
-    </ul>
-	 <div class="contact">
-		 <div class="contact-right">
-		 <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=North%20Engineering%2C%20University%20of%20Toledo%2C%20Toledo%20Ohio&key=AIzaSyBG3QEI1tpcL6dOMaIDURx7bRq8XnR2aPs"></iframe>
-		 </div>
-		 <div class="contact-left">
-			<div id="form-main">
-				<div id="form-div">
-					<form class="contact-form" id="form">
-					<p class="name">
-					<input name="name" type="text" class="contact-input" placeholder="Name" id="name" />
-					</p>
-					<p class="email">
-					<input name="email" type="text" class="contact-input" id="email" placeholder="Email" />
-					</p>
-					<p class="text">
-					<textarea name="text" class="contact-input" id="comment" placeholder="Comment"></textarea>
-					</p>
-					<div class="submit">
-					<input type="submit" value="SEND" id="button-blue"/>
-					</div>
-					</form>
-				 </div>
-			 </div>
-		</div>
 
-	 </div>
-  </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="nav-container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<div class="container">
+		<h1>About Me.</h1>
+		<img src="img/JBerardinelli.jpg" alt="About Me Picture" title="JonBerardinelli" />
+		<p class="top-p">Hey everyone, my name is Jonathon Berardinelli and I'm a junior in the 
+		Computer Science and Engineering Technology program at the University of Toledo. 
+		I have some experience in Python, C++, Java and Assembly Language. I am a full time student
+		but I also work part time at a grocery store. I love video games and I am really looking 
+		forward to this class. 
+		Favorite things to do: </p>
+		<ul class="intrests-list">
+		<li>Biking</li>
+		<li>Playing video games</li>
+		<li>Reading</li>
+		</ul>
+		 <div class="contact">
+		 
+	<!--	This was the map:	 
+			 <div class="contact-right"> 
+			 <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=North%20Engineering%2C%20University%20of%20Toledo%2C%20Toledo%20Ohio&key=AIzaSyBG3QEI1tpcL6dOMaIDURx7bRq8XnR2aPs"></iframe>
+			 </div>
+	-->				
+			 <div class="contact-left">
+				<div id="form-main">
+					<div id="form-div">
+						<form class="contact-form" id="form">
+						<p class="name">
+						<input name="name" type="text" class="contact-input" placeholder="Name" id="name" />
+						</p>
+						<p class="email">
+						<input name="email" type="text" class="contact-input" id="email" placeholder="Email" />
+						</p>
+						<p class="text">
+						<textarea name="text" class="contact-input" id="comment" placeholder="Comment"></textarea>
+						</p>
+						<div class="submit">
+						<input type="submit" value="SEND" id="button-blue"/>
+						</div>
+						</form>
+					 </div>
+				 </div>
+			</div>
+
+		 </div>
+	</div>
 </body>
 </html>
