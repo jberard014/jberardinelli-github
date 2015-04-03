@@ -7,7 +7,7 @@ background-color: tan;
 }
 body 
 {
-font-family: Times New Roman, serif;
+font-family: 'Armata', sans-serif;
 }
 .tooltip {
   position: relative;
@@ -33,6 +33,7 @@ text-align: center;
 margin-top: 5%;
 color: #000b42;
 font-weight: bold;
+font-family: 'Press Start 2P', cursive;
 }
 }
 .top-p 
